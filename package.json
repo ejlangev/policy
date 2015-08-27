@@ -1,0 +1,22 @@
+{
+  "name": "policy",
+  "version": "0.0.1",
+  "description": "Simple Policy Object for encapsulating business rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*-test.js"
+  },
+  "keywords": [
+    "Policy",
+    "Access"
+  ],
+  "author": "Ethan Langevin <ejl6266@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
